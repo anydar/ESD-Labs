@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Aryan Mundra, VIT Pune, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.25.2.0
+Toolchain Path:  G:\Aryan\ESD Softwares\Softwares\Keil_win10\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.25.2.0
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+G:\Aryan\ESD Softwares\Labs\Lab 4\lab4.uvproj
+Project File Date:  10/03/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'G:\Aryan\ESD Softwares\Softwares\Keil_win10\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling adc.c...
+adc.c(26): warning:  #61-D: integer operation result is out of range
+      while (!(AD0GDR & (1 << 31)));
+adc.c(26): warning:  #68-D: integer conversion resulted in a change of sign
+      while (!(AD0GDR & (1 << 31)));
+adc.c(65): warning:  #1-D: last line of file ends without a newline
+  }
+adc.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=728 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\Objects\lab4.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
